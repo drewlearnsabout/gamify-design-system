@@ -1,0 +1,59 @@
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Righteous', cursive;
+*/
+
+body {
+    margin: 0 auto;
+}
+.greenLine {
+    width:100%;
+    height: 1vh;
+    background: #39E991;
+}
+#systemVersion { font-family: 'Righteous', cursive;}
+header {
+    background: #0d0d0d;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+header img {
+    width: 27.6vw;
+}
+header h1 {
+    font-family: 'Righteous', cursive;
+    letter-spacing: 4px;
+    color: #FFFFFF;
+    font-size: 6.5vw;
+    justify-self: center;
+    align-self: center;
+}
+#mainBody {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    font-family: 'Open Sans', sans-serif;
+}
+#navbar {
+    position: sticky;
+    top: 0;
+    overflow: scroll;
+    height: 100vh;
+    display: grid;
+    row-gap: 5px;
+    justify-content: center;
+    background: #E38210;
+}
+#navbar a {
+    text-decoration: none;
+    color: black;
+    height: 9vh;
+    border:1px solid red;
+}
+.navbarTitle {
+    font-size: 2vw;
+    font-weight: bold;
+}
+.navbarSubtitle {
+    font-size: 1.2vw;
+    font-weight: bold;
+}
